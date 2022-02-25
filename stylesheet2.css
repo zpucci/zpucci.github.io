@@ -98,3 +98,23 @@ h1 {
 h5{
     font-family: cursive;
 }
+button:hover {
+    background-color: rgb(255, 255, 255);
+
+}
+button {
+    display: inline-block;
+    background-color:rgb(61, 61, 61);
+    border-radius: 10px;
+    border: 4px double #000000;
+    color: #000000;
+    text-align: center;
+    font-size: 12px;
+    padding: 12px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
