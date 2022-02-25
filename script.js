@@ -78,7 +78,7 @@ function discord() {
 }
 var d = new Date();
 var n = d.getDay();
-var titles = ['Fourtane of the day: You chromebook will become fast and Bloons td 6 will auto download', 'Fourtane of the day: It will Snow outside', 'Fourtane of the day: School will get canceld', 'Fourtane of the day: It will hail outside and school will get canceled', 'Fourtane of the day: Amogus will be under your bed tonight', 'Fourtane of the day: You will max you clash of clans acount', 'Fourtane of the day: You will be the best Clash royale player'];
+var titles = ['Fourtane of the day: You chromebook will become fast and Bloons td 6 will auto download', 'Fourtane of the day: It will Snow outside', 'Fourtane of the day: School will get cancelled', 'Fourtane of the day: It will hail outside and school will get cancelled', 'Fourtane of the day: Amogus will be under your bed tonight', 'Fourtane of the day: You will max you clash of clans acount', 'Fourtane of the day: You will be the best Clash royale player'];
 
 document.getElementById("title").innerHTML = titles[n-1];
 
